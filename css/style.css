@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{list-style: none}
+a{text-decoration: none;}
+img{
+    max-width: 100%
+}
+h1,h2,h3,h4{font-weight: 700;margin-bottom: 25px;}
+.ptb-30{
+    padding: 30px 0;
+}
+.mt-50{
+    margin-top: 50px;
+}
+/*logo*/
+.logo p{
+    max-width: 616px;
+    float: right;
+    padding-top: 16px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3B5998;
+}
+
+/*manu*/
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.manu{
+background: #3B5998;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1.7rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #3b5998;
+    font-weight: 700;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+}
+.dropdown-item:last-child{
+    border-bottom: none;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #3b5998;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    margin-top: 7px;
+}
+.form {
+    display: block;
+    width: 41%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: -12%;
+    margin-top: 10px;
+}
+.mr-sm-2, .mx-sm-2 {
+   margin-right: -2.5rem !important;
+height: 33px;
+padding: 8px;
+border-radius: 6%;
+border: 2px solid #3b5998;
+    max-width: 165px;
+}
+/*slider*/
+.slider-section{padding: 40px;}
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 2rem;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #3b5998;
+    margin-bottom: 20px;
+}
+.carousel-item{
+    border:10px solid #efefef;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: 22px;
+    font-weight: 700;
+    color: #3b5998;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+}
+.padding{padding: 8.25rem;}
+
+/*msg+about*/
+.box{
+    background: #444;
+    color: white;
+    padding: 20px 30px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .575rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.btn_two {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: .25rem;
+    margin-bottom: 8px;
+    margin-left: 90px;
+}
+.form-control {
+    display: block;
+    width: 91%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.display-4 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.msg {
+    
+    box-shadow: 0px 0px 3px #666;
+}
+.h3{
+   color: #3b5998;;
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 23px;
+}
+.card-link{
+    margin-top: 380px;
+    margin-left: 30px;
+}
+.shawdo{
+    box-shadow: 0px 0px 3px #666;
+}
+
+
+    /*Footer-Last*/
+.foter_section{
+    background: #444;
+    padding-top: 40px;
+}
+
+
+.ul_li{
+    color: white;
+}
+.ul_li li a i{
+    color: #676767;
+}
+#map {
+      max-width: 400px;
+      height: 300px;
+    
+    }
+.copy_section{
+    background: #2b2b2b;
+    padding: 10px 0;
+    color:white;
+    font-weight:600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Notice Board</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Warning card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>    
+          </div>
